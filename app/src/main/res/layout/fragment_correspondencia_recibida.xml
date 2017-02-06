@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pxpcorres.faviofigueroa.pxpcorres.fragments.CorrespondenciaRecibidaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewCorrespondencia"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:drawSelectorOnTop="true" />
+    </LinearLayout>
+</FrameLayout>
